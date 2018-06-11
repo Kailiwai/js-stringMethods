@@ -25,6 +25,8 @@ where x represents the value at `longestPlaceName` and y represents the value at
 /*2. Declare a variable named `fifthLetter` and find out which letter is in the 5th position in the string below. Console.log your result.*/
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
+var fifthLetter = iDidntKnow.charAt(5);
+console.log("The fifth letter of '" + iDidntKnow + "' is " + fifthLetter + ".");
 
 
 
