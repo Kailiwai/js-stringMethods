@@ -97,6 +97,9 @@ console.log(oreoListArray);
 /*9. Declare a variable named `favDrink` and extract "gin" from the string below. Console.log your result.*/
 
 var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
+var favDrink = drinkMenu.substr(5, 5);
+console.log(favDrink);
+
 
 
 
