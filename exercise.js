@@ -77,6 +77,8 @@ console.log(smallKine);
 /*7. Declare a variable named `bigBand` that will convert the string below to all upper case. Console.log your result.*/
 
 var bandName = "the beatles";
+var bigBand = bandName.toUpperCase();
+console.log(bigBand);
 
 
 
@@ -85,6 +87,8 @@ var bandName = "the beatles";
 /*8. Declare a variable named `oreoList` that will convert the string below into an array of strings. Console.log your result.*/
 
 var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cake";
+var oreoList = oreos.split();
+console.log(oreoList);
 
 
 
