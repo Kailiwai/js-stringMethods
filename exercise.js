@@ -9,12 +9,15 @@
 
 var longestPlaceName = "Taumatawhakatangihangakoauauotamateaturipukakapiki- maungahoronukupokaiwhenuakitanatahu";  //Yes, this is a real place located in Porangahau, Central Hawke's Bay.
 
-console.log("test");
+console.log(longestPlaceName);
 
 
 /*Next, concatenate and console.log the following phrase:
 "x is the longest place name in the world and has y letters in its name."
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
+ var longestPlaceNameNumberLetters = longestPlaceName.length;
+
+ console.log(longestPlaceName + " is the longest place name in the world and has " + longestPlaceNameNumberLetters + " letters.");
 
 
 /*The string.charAt() method returns the character at the specified index (position).*/
