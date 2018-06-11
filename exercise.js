@@ -35,6 +35,9 @@ console.log("The fifth letter of '" + iDidntKnow + "' is " + fifthLetter + ".");
 /*3. Declare a variable named `worldLocator` and find the index (position) of the word "world" in the string below. Console.log your result.*/
 
 var randomFact = "All pandas in the world are on loan from China.";
+var worldLocator = randomFact.indexOf("world");
+console.log("'world' appears as character number " + worldLocator + " in the phrase: " + randomFact);
+
 
 
 
